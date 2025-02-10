@@ -13,5 +13,22 @@ const button3 = document.querySelector("#button3");
 const monsterStats = document.querySelector("#monsterStats");
 const text = document.querySelector("#text");
 
+button1.onclick = goStore;
+button2.onclick = goCave;
+button3.onclick = fightDragon;
 
-button1.onclick = "Buy 10 health golds";
+
+function goStore(){
+    console.log("Going to store");
+    
+}
+
+function goCave(){
+    console.log("Going to cave");
+    
+}
+
+function fightDragon(){
+    console.log("Fight the Dragon");
+    
+}
